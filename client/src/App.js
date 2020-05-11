@@ -1,4 +1,5 @@
 import React from 'react';
+import Login from './components/onBoarding/login';
 import SignUp from './components/onBoarding/signUp';
 import Nav from './components/nav_bar/nav';
 import './App.css';
@@ -11,7 +12,9 @@ function App() {
         <p>
           Hashnbet
         </p>
-        <SignUp></SignUp>
+        <Login/>
+        <SignUp/>
+
       </header>
     </div>
   );
